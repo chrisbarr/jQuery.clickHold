@@ -7,9 +7,7 @@
 		return this.mousedown(function(){
 			callback();
 			intervalTimer = setInterval(function(){ callback(); }, 100);
-		}).mouseup(function(){
-			clearInterval(intervalTimer);
-		}).mouseout(function(){
+		}).bind('mouseup mouseout', function(){
 			clearInterval(intervalTimer);
 		});
 		
