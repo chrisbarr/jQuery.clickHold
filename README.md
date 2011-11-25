@@ -1,6 +1,6 @@
 # jQuery.clickHold #
 
-Just a small jQuery plugin providing a `.clickHold()` function.
+Just a small jQuery plugin providing a `.clickHold()` function. The minified file is only 246 bytes.
 
 In the following example the `counter` variable is incremented while `#element` is clicked.
 The callback function is called continuously (every 100ms) until the click finishes, or the cursor moves off the element.
