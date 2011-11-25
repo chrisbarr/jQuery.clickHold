@@ -1,0 +1,54 @@
+<html>
+<head>
+	<title>jQuery clickHold() demo</title>
+	
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
+	<script type="text/javascript" src="jquery.clickhold.js"></script>
+	
+	<script type="text/javascript">
+		var counter = 0;
+		
+		function increase() {
+			counter++;
+			$('#counter').text(counter);
+		}
+		
+		function decrease() {
+			counter--;
+			$('#counter').text(counter);
+		}
+		
+		$(document).ready(function(){
+			$('#increase').clickHold(function(){
+				increase();
+			});
+
+			$('#decrease').clickHold(function(){
+				decrease();
+			});
+		});
+	</script>
+	
+	<style type="text/css">
+		#main {
+			width: 300px;
+			margin: 50px auto 0;
+			font-family: Helvetica;
+			color: #404040;
+		}
+		
+		#main a {
+			color: #404040;
+		}
+	</style>
+</head>
+<body>
+	<div id="main">
+		<h2>
+			<a href="#" id="decrease">Decrease</a>
+			<span id="counter">0</span>
+			<a href="#" id="increase">Increase</a>
+		</h2>
+	</div>
+</body>
+</html>
