@@ -16,3 +16,11 @@ With the following example:
 
 The `counter` variable is incremented while `#element` is clicked.
 The callback function is called continuously (every 100ms) until the click finishes, or the cursor moves off the element.
+
+2nd callback parameter
+
+Including script example
+
+Demo?
+
+Credit?
