@@ -1,0 +1,17 @@
+{
+	"name": "clickHold",
+	"version": "0.1.0",
+	"title": "jQuery.clickHold",
+	"description": "",
+	"author": {
+		"name": "Chris Barr",
+		"email": "chris.barr@ntlworld.com"
+	},
+	"dependencies": {
+		"jquery": ">=1.0"
+	},
+	"homepage": "https://github.com/chrisbarr/jQuery.clickHold",
+	"files": [
+		"jquery.clickhold.min.js"
+	]
+}
