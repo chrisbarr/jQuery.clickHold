@@ -1,6 +1,6 @@
 {
 	"name": "clickHold",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"title": "jQuery.clickHold",
 	"description": "A simple plugin that takes callbacks for when a user clicks, and holds the click down.",
 	"author": {
