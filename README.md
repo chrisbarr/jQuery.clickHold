@@ -26,6 +26,6 @@ Include a version of the jQuery library as normal, then include the plugin:
     <script type="text/javascript" src="/path/to/jquery.min.js"></script>
     <script type="text/javascript" src="/path/to/jquery.clickhold.min.js"></script>
 
-Have a look at the simple [demo here](https://chrisbarr.github.com/jQuery.clickHold/demo.html) to see the plugin in action.
+Have a look at the simple [demo here](http://chrisbarr.github.com/jQuery.clickHold/demo.html) to see the plugin in action.
 
 _Made by Chris Barr chris.barr@ntlworld.com 2011_
