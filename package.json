@@ -2,10 +2,11 @@
 	"name": "clickHold",
 	"version": "0.1.0",
 	"title": "jQuery.clickHold",
-	"description": "",
+	"description": "A simple plugin that takes callbacks for when a user clicks, and holds the click down.",
 	"author": {
 		"name": "Chris Barr",
-		"email": "chris.barr@ntlworld.com"
+		"email": "chris.barr@ntlworld.com",
+		"url": "http://chrisbarr.co.uk"
 	},
 	"dependencies": {
 		"jquery": ">=1.0"
@@ -13,5 +14,11 @@
 	"homepage": "https://github.com/chrisbarr/jQuery.clickHold",
 	"files": [
 		"jquery.clickhold.min.js"
+	],
+	"licenses": [
+		{
+			"type": "MIT",
+			"url": "https://github.com/chrisbarr/jQuery.clickHold/blob/master/LICENSE"
+		}
 	]
 }
